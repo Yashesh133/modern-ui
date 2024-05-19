@@ -17,7 +17,7 @@ const Footer = () => {
                     Ready to Take <span className='text-purple'>your</span> Digital presence to the next level?
                 </h1>
                 <p className='text-white-200 md:mt-10 my-5 text-center'>
-                    Reach out to mee today and let&apos;'s discuss how i can help you  achieve your goals.
+                    Reach out to mee today and let&'s discuss how i can help you  achieve your goals.
                 </p>
                 <a href='mailto:yasheshthummar@gmail.com'>
                     <MagicButton
