@@ -27,16 +27,18 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic With Next.js
+            Front-End Developer
           </p>
 
           <TextGenerateEffect
             className="text-[40px] md:text-5xl lg:text-6xl text-center"
-            words="Transforming Concepts into Seamless user Experience"
+            words="Hey, I'm Yashesh Thummar"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hii, I&apos;m Yashesh, a React.js and Next.js Developer
+          <p className="text-center md:tracking-wider mb-4 text-xs md:text-sm lg:text-xl">
+            Self-motivated and hardworking web developer seeking an opportunity to
+            work in a challenging environment to prove my skills and utilize my
+            knowledge and intelligence in the growth of the organization.
           </p>
 
           <a href="#about">
