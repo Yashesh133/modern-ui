@@ -6,7 +6,7 @@ import Lottie from "react-lottie";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
-import animationData from "@/data/confetti.json";
+import animationData from "@/Data/confetti.json";
 import MagicButton from "@/components/ui/MagicButton";
 
 export const BentoGrid = ({
