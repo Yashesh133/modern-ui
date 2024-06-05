@@ -8,6 +8,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/Data/confetti.json";
 import MagicButton from "@/components/ui/MagicButton";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -82,9 +83,11 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
+              height={100}
+              width={100}
               className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
@@ -95,10 +98,11 @@ export const BentoGridItem = ({
           } `}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
               width={220}
+              height={220}
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -155,10 +159,6 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              {/* button border magic from tailwind css buttons  */}
-              {/* add rounded-md h-8 md:h-8, remove rounded-full */}
-              {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-              {/* add handleCopy() for the copy the text */}
               <div
                 className={`absolute -bottom-5 right-0 ${
                   copied ? "block" : "block"

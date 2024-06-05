@@ -1,17 +1,7 @@
 "use client";
 
-import { cn } from "@/utils/cn";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
-import {
-  IconArrowWaveRightUp,
-  IconBoxAlignRightFilled,
-  IconBoxAlignTopLeft,
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
 import { gridItems } from "@/Data";
 
 const Grid = () => {
@@ -24,8 +14,6 @@ const Grid = () => {
             key={i}
             title={item.title}
             description={item.description}
-            // remove icon prop
-            // remove original classname condition
             className={item.className}
             img={item.img}
             imgClassName={item.imgClassName}
