@@ -32,7 +32,7 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-[40px] md:text-4xl lg:text-4xl text-center"
-            words="Hey, I'm Brijesh Pansheriya"
+            words="Hey, I'm Yashesh Thummar"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-xs md:text-sm lg:text-xl">
